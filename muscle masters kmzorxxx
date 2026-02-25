@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bananaGanteng/Legend/refs/heads/main/BedahNih.lua"))()
 
-local Window = OrionLib:MakeWindow({Name = "Legend", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = Orionlib:MakeWindow({Name = "Keyzorxxx", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 
 local Tab = Window:MakeTab({
@@ -15,7 +15,7 @@ local Players = game:GetService("Players")
 local player = Players.LocalPlayer  -- pastikan ini LocalScript
 
 -- Tambahkan paragraf dengan nama player
-Tab:AddParagraph("Lunar Hub", "Welcome, " .. player.Name)
+Tab:AddParagraph("keyzorxxx Hub", "Welcome, " .. player.Name)
 
 
 -- =========================
